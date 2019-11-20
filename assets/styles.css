@@ -1,0 +1,155 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #0f0f0f;
+}
+/*Scrollbar personalizada*/
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #151515;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #090909;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+  border-radius: 5px;
+}
+nav {
+  background-color: #151515
+}
+h5 {
+  text-align: center;
+  color: #d0d0d0;
+  padding-bottom: 20px;
+}
+pre {
+  background: #0b0b0b;
+}
+iframe {
+  border: 10px solid white;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+nav .nav-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav .brand-logo {
+  font-weight: 600;
+}
+.table-of-contents a.active {
+  font-weight: 600;
+  color: white;
+  border: none!important;
+}
+.table-of-contents a:hover {
+  padding: 15px;
+  border: none!important;
+  color: white;
+  font-weight: 600;
+}
+.bottom {
+  bottom: 0;
+}
+.main {
+  padding: 15%;
+  padding-top: 0;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 8rem;
+}
+.video-container {
+  padding-bottom: 65%;
+  overflow: inherit;
+}
+.title {
+  padding-top: 100px;
+  margin: 0;
+  font-weight: 600;
+  color: white;
+}
+.sub {
+  padding-top: 30px;
+  font-weight: 500;
+  color: #cecece;
+}
+.row .col.offset-s12 {
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+.creators {
+  text-align: center;
+  padding-bottom: 60px;
+  color: white;
+  font-weight: 600;
+}
+.card {
+  border-radius: 10px;
+  background: #151515;
+  color: white;
+  box-shadow: 0 0 8px black;
+}
+.card-title {
+  font-weight: 600!important;
+  text-shadow: 0 0 15px black;
+  text-transform: uppercase;
+}
+#comenzar {
+  margin-top: 50px;
+}
+.firstcode {
+  text-align: left;
+  color: white;
+  margin-top: 40px;
+  padding: 30px;
+  box-shadow: 0 0 8px black;
+}
+.code {
+  width: 50%;
+}
+.collapsible {
+  border: none!important;
+  padding-bottom: 50px;
+}
+.collapsible-header {
+  background-color: #151515;
+  color: white;
+  border: none!important;
+  box-shadow: 0 0 8px black;
+}
+.collapsible-body {
+  color: #dfdfdf;
+  border: none;
+}
+.text {
+  color: #b6b6b6;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+.text2 {
+  color: #b0adff;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px
+}
+#ejemplos {
+  margin-top: 80px;
+  padding-bottom: 120px;
+}
+.nuzze {
+  font-weight: 600;
+  color: #ff7c7c;
+}
+.creditos {
+  margin-top: -15px;
+  text-align: center;
+}

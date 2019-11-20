@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <title>Processing</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Nuzze">
+    <meta name="description" content="Descargá Processing ahora. Trabajo realizado para Tecno I.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/materialize.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Processing_Logo_Clipped.svg/1024px-Processing_Logo_Clipped.svg.png">
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Processing</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down table-of-contents">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#creadores">Creadores</a></li>
+            <li><a href="#comenzar">Comenzar</a></li>
+            <li><a href="#ejemplos">Ejemplos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div id="inicio" class="container main section scrollspy">
+      <h3 class="title">Conocé Processing</h3>
+      <h6 class="sub">Un lenguaje de programación y entorno de desarrollo integrado de código abierto para la enseñanza y producción de proyectos multimedia e interactivos de diseño digital.</h6>
+      <div class="row" style="margin-top: 50px">
+        <div class="col m4 offset-s12">
+          <a href="linux" class="btn tooltipped waves-effect indigo darken-4 btn-large" data-position="bottom" data-tooltip="Descargar para Linux"><i class="fab fa-linux"></i> Descargar</a>
+        </div>
+        <div class="col m4 offset-s12">
+          <a href="mac" class="btn tooltipped waves-effect indigo darken-4 btn-large" data-position="bottom" data-tooltip="Descargar para MacOS"><i class="fab fa-apple"></i> Descargar</a>
+        </div>
+        <div class="col m4 offset-s12">
+          <a href="windows" class="btn tooltipped waves-effect indigo darken-4 btn-large" data-position="bottom" data-tooltip="Descargar para Windows"><i class="fab fa-windows"></i> Descargar</a>
+        </div>
+      </div>
+      <div class="video-container">
+        <iframe src="https://player.vimeo.com/video/140600280" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div id="creadores" class="container section scrollspy">
+      <div class="row">
+        <div class="col s12">
+          <h3 class="creators">Creadores</h3>
+        </div>
+        <div class="col m6 offset-s12">
+          <div class="card">
+            <div class="card-image">
+              <img class="materialboxed responsive-img" src="https://arts.mit.edu/wp-content/uploads/2016/11/Ben-Fry_Headshot.jpg">
+              <span class="card-title">Ben Fry</span>
+              <a class="btn-floating btn tooltipped halfway-fab waves-effect indigo darken-4" data-position="right" data-tooltip="Web oficial de Ben Fry" href="https://benfry.com/" target="_blank"><i class="material-icons">launch</i></a>
+            </div>
+            <div class="card-content">
+              <p>Benjamin Fry (nacido en 1975) es un experto estadounidense en visualización de datos. Es director de Fathom, una consultora de diseño y software en Boston, Massachusetts. También es co-desarrollador de Processing, un lenguaje de programación de código abierto y un entorno de desarrollo integrado (IDE) creado para las comunidades de artes electrónicas y diseño visual con el propósito de enseñar los conceptos básicos de la programación de computadoras en un contexto visual. El entorno de diseño de Processing ganó una Golden Nica de Prix Ars Electronica en 2005.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col m6 offset-s12">
+          <div class="card">
+            <div class="card-image">
+              <img class="materialboxed responsive-img" src="https://arts.mit.edu/wp-content/uploads/2016/11/Casey-Reas-Headshot.jpg">
+              <span class="card-title">Casey Reas</span>
+              <a class="btn-floating btn tooltipped halfway-fab waves-effect indigo darken-4" data-position="left" data-tooltip="Web oficial de Casey Reas" href="http://reas.com/" target="_blank"><i class="material-icons">launch</i></a>
+            </div>
+            <div class="card-content">
+              <p>Casey Edwin Barker Reas (nacido en 1972), también conocido como C. E. B. Reas o Casey Reas, es un artista estadounidense cuyas obras de arte conceptuales, de procedimiento y mínimas exploran ideas a través de la lente contemporánea del software. Reas es quizás mejor conocido por haber creado, con Ben Fry, el lenguaje de programación Processing. Reas nació Casey Edwin Barker Reas en 1972 en Troy, Ohio. Estudió diseño en la Universidad de Cincinnati y luego pasó los dos años siguientes desarrollando software y electrónica como una exploración artística.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="comenzar" class="container section scrollspy">
+      <div style="text-align: center" class="row">
+        <div class="col s12">
+          <h3 class="creators" style="padding-bottom: 20px">Comenzar a programar en Processing</h3>
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5N31KNgOO0g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h5 style="margin-top: 120px">Veamos cómo dibujar nuestro primer rectángulo en pantalla</h5>
+          <pre class="firstcode">
+            <code class="code">
+void setup() {
+  size(400,400);
+}
+
+void draw() {
+  rect(width/2,height/2,100,50);
+}
+            </code>
+          </pre>
+        <h5 style="padding-top: 20px;">Listo? como podemos ver es bastante fácil</h5>
+        <h6 class="text">Ahora que aprendiste a crear un rectángulo, te enseñaremos la sintaxis para crear otras figuras.</h6>
+        </div>
+        <div class="col s6">
+          <ul class="collapsible">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">code</i>ellipse()</div>
+              <div class="collapsible-body"><span><pre><code style="position: relative; background: #0b0b0b">ellipse(56, 46, 55, 55);</code></pre>
+                <br>
+                <img src="https://processing.org/reference/images/ellipse_.png" width="60" />
+                <br>
+                <br>
+                Dibuja una elipse (ovalada) en la pantalla. Una elipse con igual ancho y alto es un círculo. De manera predeterminada, los dos primeros parámetros establecen la ubicación, y los parámetros tercero y cuarto establecen el ancho y la altura de la forma. El origen se puede cambiar con la función ellipseMode ().</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">code</i>line()</div>
+              <div class="collapsible-body"><span><pre><code>line(30, 20, 85, 75);</code></pre>
+                <br>
+                <img src="https://processing.org/reference/images/line_0.png" width="60" />
+                <br>
+                <br>
+                Dibuja una línea (una ruta directa entre dos puntos) a la pantalla. La versión de line () con cuatro parámetros dibuja la línea en 2D. Para colorear una línea, use la función trazo (). No se puede llenar una línea, por lo tanto, la función fill () no afectará el color de una línea. Las líneas 2D se dibujan con un ancho de un píxel de forma predeterminada, pero esto se puede cambiar con la función strokeWeight (). La versión con seis parámetros permite colocar la línea en cualquier lugar dentro del espacio XYZ. Dibujar esta forma en 3D con el parámetro z requiere el parámetro P3D en combinación con el tamaño () como se muestra en el ejemplo anterior.</span></div>
+            </li>
+          </ul>
+        </div>
+        <div class="col s6">
+          <ul class="collapsible">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">code</i>point()</div>
+              <div class="collapsible-body"><span><pre><code>point(30, 20);</code></pre>
+                <br>
+                <img src="https://processing.org/reference/images/point_0.png" width="60" />
+                <br>
+                <br>
+                Dibuja un punto, una coordenada en el espacio en la dimensión de un píxel. El primer parámetro es el valor horizontal para el punto, el segundo valor es el valor vertical para el punto y el tercer valor opcional es el valor de profundidad. Dibujar esta forma en 3D con el parámetro z requiere el parámetro P3D en combinación con el tamaño () como se muestra en el ejemplo anterior.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">code</i>triangle()</div>
+              <div class="collapsible-body"><span><pre><code>triangle(30, 75, 58, 20, 86, 75);</code></pre>
+                <br>
+                <img src="https://processing.org/reference/images/triangle_.png" width="60" />
+                <br>
+                <br>
+                Un triángulo es un plano creado conectando tres puntos. Los dos primeros argumentos especifican el primer punto, los dos argumentos centrales especifican el segundo punto y los dos últimos argumentos especifican el tercer punto.</span></div>
+            </li>
+          </ul>
+        </div>
+        <h6 class="text2">Para ver toda la referencia a la sintaxis de Processing <a href="https://processing.org/reference/" target="_blank">hacé click acá</a></h6>
+      </div>
+    </div>
+    <div id="ejemplos" class="container section scrollspy">
+      <div style="text-align: center" class="row">
+        <div class="col s12">
+          <h3 class="creators" style="padding-bottom: 20px">Ejemplos realizados en Processing</h3>
+          <h6 style="color: #d0d0d0; padding: 20px">A continuación veremos 2 ejemplos realizados en Processing: un círculo cromático personal y una secuencia de créditos animada.</h6>
+          <img class="responsive-img" src="http://i.imgur.com/tl8GX1g.png" style="padding: 40px" width="700">
+        </div>
+        <div class="col s6" style="padding: 30px">
+          <a class="waves-effect tooltipped indigo darken-4 btn-large btn modal-trigger" data-position="right" data-tooltip="Ver ejemplo 1" href="#modal1">Círculo cromático</a>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h4>Círculo cromático personal</h4>
+              <div id="circulo"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col s6" style="padding: 30px">
+          <a class="waves-effect tooltipped indigo darken-4 btn-large btn modal-trigger" data-position="left" data-tooltip="Ver ejemplo 2" href="#modal2">Secuencia de créditos</a>
+          <div id="modal2" class="modal">
+            <div class="modal-content">
+              <h4>Secuencia de créditos animada</h4>
+              <div id="secuencia" width="300" height="300"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-fixed">
+      <nav class="bottom">
+        <div class="nav-wrapper creditos">
+          <p>Hecho con <i style="color: #ff4545; font-size: 18px" class="fas fa-heart" aria-hidden="true"></i> por <a class="nuzze" href="http://nuzze.000webhostapp.com" target="_blank">Nuzze</a> y Santiago Gonzalez para Tecno 1.</p>
+        </div>
+      </nav>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/p5.min.js"></script>
+    <script type="text/javascript" src="js/sketches.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://kit.fontawesome.com/6c3761ce17.js"></script>
+  </body>
+</html>
